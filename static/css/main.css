@@ -1,0 +1,106 @@
+/* 
+ * General
+ */
+
+
+
+body {
+  background:url("https://cdn.pixabay.com/photo/2015/07/11/23/02/plane-841441_1280.jpg");
+  font-family: 'Open Sans', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+/* 
+ * Header
+ */
+
+header {
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  background-color:#87ceeb3d;
+ 
+  padding: 15px 0;
+  border-bottom: solid 1px;
+}
+
+
+}
+
+.title {
+  float: left;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size:25px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+ 
+}
+
+.title a, .title a:visited {
+  color: red;
+}
+
+.upload-image-thumb {
+  max-width: 800px;
+  margin: 100px;
+}
+.image-container {
+  margin: 0px auto;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+center {
+	display: flex;
+	flex-direction:  column;
+	padding: 20px;  
+	background: #ffffff80;
+
+};
+
+p {
+	font-size: x-large;
+	margin: 8px;
+};
+
+#form-header {
+font-size: x-large;
+    font-weight: bold;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content:  space-between;
+	background: #ffffffa8;
+}
+
+#top-nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items:center;
+	padding: 10px;
+
+}
+
+#brand-logo-img {
+	width: 100px;
+	
+}
+
+#brand {
+	font-size: 25px;
+	margin-left: 20px;
+
+}
+
